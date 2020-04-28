@@ -3,7 +3,7 @@ package snackBar;
 public class Customer{
 
   // fields
-  private int maxId = 0;
+  private static int maxId = 0;
   private int id;
   private String name;
   private double cashOnHand;
@@ -34,7 +34,7 @@ public class Customer{
   }
 
   // cash on hand
-  public void getCashOnHand(){
+  public double getCashOnHand(){
     return cashOnHand;
   }
 

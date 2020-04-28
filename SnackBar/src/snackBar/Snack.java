@@ -3,7 +3,7 @@ package snackBar;
 public class Snack {
 
   // fields
-  private int maxId = 0;
+  private static int maxId = 0;
   private int id;
   private String name;
   private int quanity;
@@ -39,7 +39,7 @@ public class Snack {
   }
 
   // quanity
-  public void addQuantiy(int quanity){
+  public void addQuanity(int quanity){
     this.quanity += quanity;
   }
 
